@@ -1,11 +1,24 @@
-current_temp = float(10)
-desired_temp = float(5)
+current_temp = 10
+target_temp = 5
+i=1
+import time
 
-def temp_control(current_temp, desired_temp):
-    temp_diff = desired_temp - current_temp
-    temp_change = current_temp - (temp_diff * 0.25)
+def temp_control(current_temp, target_temp):
+    temp_diff = target_temp - current_temp
+    temp_change = temp_diff * 0.25
+    print(f"Target Temperature is: {target_temp: .2f}.")
+    print(f"Difference: {temp_diff: .2f}")
     new_temp = current_temp + temp_change
-    print(f"The TCS is changing the temperature by {temp_change} and the current temperature is {new_temp}")
+    print(f"Changing the temperature by {temp_change: .2f}.New temperature is {new_temp: .2f}")
+    print("####################################\n")
     return new_temp
 
-print(temp_control(current_temp, desired_temp))
+
+# This code will test the function temp_control
+while round(current_temp,2) != round(target_temp,2):
+    print(f"{i} iteration")
+    print(f"New Temperature: {current_temp: .2f}.")
+    current_temp = temp_control(current_temp, target_temp)
+    time.sleep(0.5)
+    i+=1
+    
