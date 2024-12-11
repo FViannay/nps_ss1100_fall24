@@ -51,7 +51,7 @@ command_dict = {
     }
 }
 
-input_string = "EPS:CMD04:30"
+input_string = "RCS:INVALID:0"
 parts = input_string.split(":")
 
 try:
@@ -59,6 +59,7 @@ try:
     command = parts[1]
     param = int(parts[2])
     system_dict[parts[0]]
+    command_dict[parts[1]]
     if subsystem == "RCS":
         if command == "CMD01":
             print(f"System: {system_dict[subsystem]}")
@@ -204,8 +205,8 @@ try:
             print(f"SAFE")
 
 except KeyError:
-    print("Invalid subsystem entered.")
-    
+    print("Invalid subsystem or command entered.")
+
 except ValueError:
     print("The parameter entered is not an integer.")
 
