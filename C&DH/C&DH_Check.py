@@ -203,6 +203,10 @@ try:
             print(f"Command: {command} - {command_dict[command][subsystem]}")
             print(f"SAFE")
 
-
+except KeyError:
+    print("Invalid subsystem entered.")
+    
 except ValueError:
     print("The parameter entered is not an integer.")
+
+
