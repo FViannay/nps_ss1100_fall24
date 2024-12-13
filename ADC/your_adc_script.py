@@ -52,7 +52,7 @@ def rotation_calculation(adc_list):
         result = tuple(a - b for a, b in zip(adc_list[0], adc_list[1]))
     return result
 
-print(f"Subtracting input_1 from input_2 gives is {rotation_calculation(adc_list)} and it's "
+print(f"input_1 {txt_to_tuple(input_1)} minus input_2 {input_2} equals {rotation_calculation(adc_list)} and it's "
       f"type is {type(rotation_calculation(adc_list))}")
 print(f"{adc_list[0][0]} - {adc_list[1][0]} = {rotation_calculation(adc_list)[0]}")
 print(f"{adc_list[0][1]} - {adc_list[1][1]} = {rotation_calculation(adc_list)[1]}")
@@ -63,7 +63,7 @@ print("-----------------------------------------------------")
 ############################################################################################
 ############################################################################################
 
-rotate_me.main(rotation_calculation(adc_list))
+#rotate_me.main(rotation_calculation(adc_list))
 
 
 
