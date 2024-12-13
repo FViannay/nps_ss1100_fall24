@@ -51,13 +51,13 @@ command_dict = {
     }
 }
 
-input_string = "RCS:INVALID:0"
+input_string = "RCS:CMD01:1.1"
 parts = input_string.split(":")
 
 try:
     subsystem = parts[0]
     command = parts[1]
-    param = int(parts[2])
+    param = float(parts[2])
     system_dict[parts[0]]
     command_dict[parts[1]]
     if subsystem == "RCS":
