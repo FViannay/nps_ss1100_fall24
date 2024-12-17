@@ -64,10 +64,15 @@ ___
 ___
 **TCS Output**
 ___
+**TCS Check Output: 25 total iterations: Images show 1-3 of and 23-25 iterations**
 
+![TCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/TCS/TCS_Check_1.PNG)
+![TCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/TCS/TCS_Check_2.PNG)
+___
+**TCS Check Output: Images show first 4 iterations and last 3 iterations**
 
-
-
+![TCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/TCS/TCS_Check_Plus_1.PNG)
+![TCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/TCS/TCS_Check_Plus_2.PNG)
 ___
 ___
 **ADC Output**
