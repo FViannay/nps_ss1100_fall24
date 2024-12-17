@@ -67,5 +67,8 @@ else:
     plt.imshow(rescaled_image)
     plt.axis('off')
     plt.show()
-    savefile(rescaled_image,'check_plus.png')
+    # save array as an image with the provided filename and path. 
+    # If path is omitted, it will save on the current working directory. 
+    # path must be provided without the end backslash
+    savefile(rescaled_image,'check_plus.png',)
 
