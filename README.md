@@ -43,6 +43,21 @@
 >De Cort: Maybe as the culmination of all the Check Plus’s, they all need to be fed into another program which incorporates all the subsystems outputs.
 
 >Fabricio: I think the image processing could have one or two more steps. It was very educative and could teach a bit more about the subject. Maybe with a small SAR image.
+___
+___
+**RCS Output**
+___
+
+
+
+
+___
+___
+**TCS Output**
+___
+
+
+
 
 ___
 ___
