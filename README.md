@@ -40,5 +40,9 @@
 
 
 
-![EPS Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check.PNG)
+![EPS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check.PNG)
+
+![EPS Check Plus 1 Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Chec_plus_1.PNG)
+
+![EPS Check Plus 2 Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check_plus_2.PNG)
 
