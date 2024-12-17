@@ -4,9 +4,13 @@
 
 **1. What was your experience in collaborating? Talk about what steps you used to ensure the inputs from group members worked- code testing, GitHub branch management, etc.- and how you divided up the workload for the project.**
 
-    De Cort: Since it was only Fabricio and myself, collaborating went pretty well. We split up the project so each person had 3 sub systems, however I did ask for some help on some of my portions. We used Teams chat for        most of the communication and we met up once in person to go over the code we had done and take stock of what else we needed to do.  Using GitHub was a little daunting at first but the GitHub desktop version really     
-    helped to streamline pushing and pulling code and its UI did a great job with showing what code was added and deleted. We did not make any branches outside of main when pushing code. I can understand how in a bigger 
-    project with more people, it would be much better practice to make separate branches. However, for just the two of us just pushing directly to main worked fine. 
+    De Cort: Since it was only Fabricio and myself, collaborating went pretty well. 
+    We split up the project so each person had 3 sub systems, however I did ask for some help on some of my portions. 
+    We used Teams chat for most of the communication and we met up once in person to go over the code we had done and take stock of what else we needed to do.  
+    Using GitHub was a little daunting at first but the GitHub desktop version really helped to streamline pushing and pulling code and its UI did a great job with showing what code was added and deleted. 
+    We did not make any branches outside of main when pushing code. 
+    I can understand how in a bigger project with more people, it would be much better practice to make separate branches. 
+    However, for just the two of us just pushing directly to main worked fine. 
 
 **2. What was the most challenging section, and why? Feel free to provide more than one response if there is a difference of opinion in the group.**
 
