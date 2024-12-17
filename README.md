@@ -48,15 +48,19 @@ ___
 **C&DH Output**
 ___
 **C&DH Check Output: EPS:CMD01:0**
+
 ![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/C%26DH/Check_one.PNG)
 ___
 **C&DH Check Output: ACS:CMD04:-1**
+
 ![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/C%26DH/Check_two.PNG)
 ___
 **C&DH Check Output: RCS:INVALID:0**
+
 ![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/C%26DH/Check_three.PNG)
 ___
 **C&DH Check Plus Output: EPS:CMD01:0, ACS:CMD04:-1, RCS:INVALID:0**
+
 ![C&DH Check Plus Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/C%26DH/Check_plus.PNG)
 ___
 ___
