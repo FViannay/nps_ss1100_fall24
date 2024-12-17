@@ -32,3 +32,13 @@
 **5. In what way could this project be improved for future quarters?**
 
     De Cort: Maybe as the culmination of all the Check Plus’s, they all need to be fed into another program which incorporates all the subsystems outputs. 
+
+
+
+
+
+
+
+EPS Check Output:
+![EPS Putput](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check.PNG)
+
