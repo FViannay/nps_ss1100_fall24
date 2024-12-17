@@ -48,16 +48,16 @@ ___
 **RCS Output**
 ___
 **RCS Check Output:**
- * Firingathrusterfor5seconds,with ˙ m=0.02andve=1000
- * Firingathrusterfor3seconds,with ˙ m=0.06andve=1000
- * Firingathrusterfor10seconds,with ˙ m=0.05andve=2000
+ * Firing a thruster for 5 seconds, with ˙m = 0.02 and ve = 1000
+ * Firing a thruster for 3 seconds, with ˙m = 0.06 and ve = 1000
+ * Firing a thruster for 10 seconds, with ˙m = 0.05 and ve = 2000
 
 ![RCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/RCS/RCS_Check.PNG)
 ___
 **RCS Check Plus Output:**
- * FiringThruster1for15seconds,with ˙ m=0.04andve=2000
- * FiringThruster2for4seconds,with ˙ m=0.03andve=2000
- * FiringThruster3for3seconds,with ˙ m=0.01andve=2000
+ * Firing Thruster 1 for 15 seconds, with ˙m = 0.04 and ve = 2000
+ * Firing Thruster 2 for 4 seconds, with ˙m = 0.03 and ve = 2000
+ * Firing Thruster 3 for 3 seconds, with ˙m = 0.01 and ve = 2000
 
 ![RCS Check Plus Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/RCS/RCS_Check_Plus.PNG)
 ___
