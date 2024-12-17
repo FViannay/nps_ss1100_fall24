@@ -51,20 +51,14 @@ ___
 **ADC Check Output: (100,200,300)**
 
 ![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_One.PNG)
-![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_One_2.PNG)
-![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_One_3.PNG)
 ___
 **ADC Check Output: (0,0,0)**
 
 ![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_Two.PNG)
-![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_two_2.PNG)
-![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_Two_3.PNG)
 ___
 **ADC Check Output: (3,30,300)**
 
 ![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_Three.PNG)
-![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_three_2.PNG)
-![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_three_3.PNG)
 ___
 ___
 **C&DH Output**
