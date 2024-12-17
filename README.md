@@ -39,10 +39,15 @@ ___
 
 
 
-
+**EPS Check Output**
+ * 1. Voltage of 25 V, Amperage of 10 A, running for t = 3600 seconds
+ * 2. Voltage of 30 V, Amperage of 8 A, running for t = 1800 seconds
+ * 3. Voltage of 15 V, Amperage of 12 A, running for t = 7200 seconds
 ![EPS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check.PNG)
 
+**EPS Check Pus Output: [(22,7,300), (40,7,60), (25,10,200), (10,4,600)]**
 ![EPS Check Plus 1 Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Chec_plus_1.PNG)
 
+**EPS Check Output: [(0,7,300), (30,10,60), (28,10,200), (10,10,10)]**
 ![EPS Check Plus 2 Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check_plus_2.PNG)
 
