@@ -44,7 +44,8 @@
 
 >Fabricio: I think the image processing could have one or two more steps. It was very educative and could teach a bit more about the subject. Maybe with a small SAR image.
 
-
+___
+___
 **ADC Output**
 ___
 **ADC Check Output: (100,200,300)**
