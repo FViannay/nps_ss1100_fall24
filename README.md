@@ -39,6 +39,6 @@
 
 
 
-EPS Check Output:
-![EPS Putput](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check.PNG)
+
+![EPS Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check.PNG)
 
