@@ -47,10 +47,19 @@ ___
 ___
 **RCS Output**
 ___
+**RCS Check Output:**
+ * Firingathrusterfor5seconds,with ˙ m=0.02andve=1000
+ * Firingathrusterfor3seconds,with ˙ m=0.06andve=1000
+ * Firingathrusterfor10seconds,with ˙ m=0.05andve=2000
 
+![RCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/RCS/RCS_Check.PNG)
+___
+**RCS Check Plus Output:**
+ * FiringThruster1for15seconds,with ˙ m=0.04andve=2000
+ * FiringThruster2for4seconds,with ˙ m=0.03andve=2000
+ * FiringThruster3for3seconds,with ˙ m=0.01andve=2000
 
-
-
+![RCS Check Plus Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/RCS/RCS_Check_Plus.PNG)
 ___
 ___
 **TCS Output**
@@ -65,15 +74,15 @@ ___
 ___
 **ADC Check Output: (100,200,300)**
 
-![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_One.PNG)
+![ADC Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_One.PNG)
 ___
 **ADC Check Output: (0,0,0)**
 
-![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_Two.PNG)
+![ADC Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_Two.PNG)
 ___
 **ADC Check Output: (3,30,300)**
 
-![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_Three.PNG)
+![ADC Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/ADC/Check_Three.PNG)
 ___
 ___
 **C&DH Output**
