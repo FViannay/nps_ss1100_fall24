@@ -1,3 +1,4 @@
+#Dictionary to hold all the system codes and names
 system_dict = {
     "RCS" : "Reaction Control Subsystem",
     "TCS" : "Thermal Control Subsystem",
@@ -8,6 +9,8 @@ system_dict = {
     "PL1" : "Payload System 1",
     "PL2" : "Payload System 2"
 }
+
+#Dictionary to hold all the command codes and for each subsystem
 command_dict = {
     'CMD01' : {
         'RCS' : "THRUST_X",
@@ -51,15 +54,19 @@ command_dict = {
     }
 }
 
-input_string = "RCS:CMD01:1.1"
+#Command Input
+input_string = "EPS:CMD01:0"
 parts = input_string.split(":")
 
 try:
-    subsystem = parts[0]
-    command = parts[1]
-    param = float(parts[2])
-    system_dict[parts[0]]
-    command_dict[parts[1]]
+    subsystem = parts[0] #First part of the 'input_string'
+    command = parts[1] #Second part of the 'input_string'
+    param = float(parts[2]) #Third part of the 'input_string'
+
+    system_dict[parts[0]] #Checks to see if the First part of the 'input_string' is in the dictionary
+                          #If not, will get caught in the "KeyError" Try/Except
+    command_dict[parts[1]]#Checks to see if the Second part of the 'input_string' is in the dictionary
+                          #If not, will get caught in the "KeyError" Try/Except
     if subsystem == "RCS":
         if command == "CMD01":
             print(f"System: {system_dict[subsystem]}")
@@ -204,10 +211,10 @@ try:
             print(f"Command: {command} - {command_dict[command][subsystem]}")
             print(f"SAFE")
 
-except KeyError:
+except KeyError: #Catches the errors in part 0 and 1 of 'input_string'
     print("Invalid subsystem or command entered.")
 
-except ValueError:
+except ValueError: #Catches the errors in part 2 of 'input_string'
     print("The parameter entered is not an integer.")
 
 
