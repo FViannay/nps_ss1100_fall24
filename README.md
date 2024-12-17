@@ -44,21 +44,33 @@
 
 >Fabricio: I think the image processing could have one or two more steps. It was very educative and could teach a bit more about the subject. Maybe with a small SAR image.
 
-
-
+___
+**C&DH Output**
+___
+**C&DH Check Output: EPS:CMD01:0**
+![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/C%26DH/Check_one.PNG)
+___
+**C&DH Check Output: ACS:CMD04:-1**
+![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/C%26DH/Check_two.PNG)
+___
+**C&DH Check Output: RCS:INVALID:0**
+![C&DH Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/C%26DH/Check_three.PNG)
+___
+**C&DH Check Plus Output: EPS:CMD01:0, ACS:CMD04:-1, RCS:INVALID:0**
+![C&DH Check Plus Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/C%26DH/Check_plus.PNG)
+___
 ___
 **EPS Output**
 ___
-
 **EPS Check Output**
  * Voltage of 25 V, Amperage of 10 A, running for t = 3600 seconds
  * Voltage of 30 V, Amperage of 8 A, running for t = 1800 seconds
  * Voltage of 15 V, Amperage of 12 A, running for t = 7200 seconds
 ![EPS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check.PNG)
 ___
-**EPS Check Pus Output: [(22,7,300), (40,7,60), (25,10,200), (10,4,600)]**
+**EPS Check Plus Output: [(22,7,300), (40,7,60), (25,10,200), (10,4,600)]**
 ![EPS Check Plus 1 Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Chec_plus_1.PNG)
 ___
-**EPS Check Output: [(0,7,300), (30,10,60), (28,10,200), (10,10,10)]**
+**EPS Check Plus Output: [(0,7,300), (30,10,60), (28,10,200), (10,10,10)]**
 ![EPS Check Plus 2 Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check_plus_2.PNG)
 
