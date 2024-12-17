@@ -69,7 +69,7 @@ ___
 ![TCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/TCS/TCS_Check_1.PNG)
 ![TCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/TCS/TCS_Check_2.PNG)
 ___
-**TCS Check Output: Images show first 4 iterations and last 3 iterations**
+**TCS Check Plus Output: Images show first 4 iterations and last 3 iterations**
 
 ![TCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/TCS/TCS_Check_Plus_1.PNG)
 ![TCS Check Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/TCS/TCS_Check_Plus_2.PNG)
@@ -125,4 +125,8 @@ ___
 **EPS Check Plus Output: [(0,7,300), (30,10,60), (28,10,200), (10,10,10)]**
 
 ![EPS Check Plus 2 Output](https://github.com/FViannay/nps_ss1100_fall24/blob/main/EPS/Check_plus_2.PNG)
+
+___
+___
+**Payload Output in Payload Folder**
 
