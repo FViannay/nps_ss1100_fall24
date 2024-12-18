@@ -1,6 +1,8 @@
 
 # SS1100: Intro to Programming for Space Applications
 ## Final Project: Programming Spacecraft Systems
+- Fabricio da Fonseca Viannay
+- Robert De Cort
 
 
 **1. What was your experience in collaborating? Talk about what steps you used to ensure the inputs from group members worked- code testing, GitHub branch management, etc.- and how you divided up the workload for the project.**
