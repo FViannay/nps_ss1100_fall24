@@ -42,6 +42,11 @@ def velocity_change(mass_flow_rate,effective_exaust_velocity,time_ellapsed):
     deltav=[0,0,0]
     print("Maneuver result:")
     for thr, eef,time,mfr in zip(thrusters,effective_exaust_velocity,time_ellapsed,mass_flow_rate):
+        if eef < 0 or time<0 or mfr<0:
+            print("ERROR: Values cannot be negative.")
+            print('\n#############################\n')
+            deltav = 0
+            return deltav
         check_thrust(thr, mfr, eef)  # assuming the malfunction is detected after the maneuver
         deltav[thr-1] = (eef*mfr*time)/spacecraft_mass
         print(f"Delta V on {thrusters[thr]} = {deltav[thr-1]} m/s.")
