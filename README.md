@@ -134,3 +134,16 @@ ___
 
 https://github.com/FViannay/nps_ss1100_fall24/tree/main/Payload
 
+
+# Instructor Comments
+
+### ADC
+Good use of the tuple comprehension in the grading_file. Recommend you delete the last two lines of that script - once you're done with testing, you can delete those practice calls of the formula to reduce the chance it will mess something up in the future. Alternatively, comment it all out and leave instructions indicating that it is for testing purposes only.
+
+### C&DH
+In your Check script, you have a lot of recurring themes. One thing to consider when working on larger projects is how you can reuse and repurpose code, rather than having to write out every line separately for each element. 
+For the Check Plus script, I would recommend breaking down the three parts of the trigram into three separate functions, which are then called by the cpr() function. Speaking of which, "cpr" is a legal, allowed name, but it might be a bit hard to remember what it does - more descriptive is better. Finally, something to consider is working on your functions so that they always return the same type of result, even if it is an "error" or something goes wrong. By this, I mean making sure that you print/return in the same way. I noticed that you had to call "print(cpr(XX:XXX:XX))", wrapping your function call in a print statment. Consider getting that print statment inside the function so you can just call cpr() and be done with it.
+
+### Payload
+
+In your *savefile* function, I'd recommend you use the built-in functions that come with the sys and os modules to help with the issues that you're addressing with that code. Things like combining filenames with "\" characters and checking for empty names are easily solved with tools such as "os.path.join" and "os.path.exists", respectively.
